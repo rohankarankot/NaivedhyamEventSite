@@ -1,0 +1,47 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background-image: url(https://images.unsplash.com/photo-1415025148099-17fe74102b28?ixlib=rb-1.2.1&w=1000&q=80);
+	background-size: cover;
+}
+a,p,hr{
+	color: white;
+}
+.slideimg{
+	height: 70vh;
+}
+@media only screen and (max-width: 600px) {
+ .slideimg{
+	height: 40vh;
+	/*border-radius: 20px;*/
+}
+
+}
+#hidehome{
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+#hidehome{
+	display: block;
+}
+}
+.updown{
+	animation-name: example;
+  animation-duration: 2s ;
+   animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  
+  100% { left:0px; top:10px;}
+}
+#callimg{
+	width: 180px;
+}
+.card-img-top{
+	 height:233px;
+}
+.card-text{
+	text-align: justify;
+}
